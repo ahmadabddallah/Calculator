@@ -1,0 +1,59 @@
+Software Requirements Specification (SRS) for Atmega32 Calculator
+
+1. Introduction
+
+The Atmega32 Calculator is a software application designed to perform basic arithmetic operations on numerical inputs. Utilizing the Atmega32 microcontroller, this calculator provides a user-friendly interface for users to perform addition, subtraction, multiplication, and division operations.
+
+2. Functional Requirements
+
+2.1 Basic Arithmetic Operations
+
+The calculator supports the following basic arithmetic operations:
+Addition
+Subtraction
+Multiplication
+Division
+2.2 User Input
+
+Users can input numerical values and perform operations using a keypad connected to the Atmega32.
+The calculator accepts positive and negative integers as well as decimal numbers.
+2.3 Display Output
+
+The calculator displays numerical inputs, intermediate results, and final results on an attached LCD display.
+2.4 Memory Operations
+
+Users can store a numerical value in memory (M+ operation).
+Users can recall the value stored in memory (MR operation).
+Users can clear the memory (MC operation).
+2.5 User Interface
+
+The calculator provides a simple and intuitive user interface through the connected keypad and LCD display.
+Clear and easy-to-understand symbols represent each arithmetic operation.
+3. Hardware Configuration
+
+Atmega32 microcontroller serves as the core processing unit.
+Keypad is connected to specific pins to capture user input.
+LCD display is used to present numerical inputs and results.
+Supporting components include resistors, capacitors, and a power supply.
+4. Software Implementation
+
+AVR-GCC is used for coding the Atmega32 microcontroller.
+Functions are created to handle user input, perform arithmetic operations, and manage memory.
+The software ensures accurate calculations and provides error handling for invalid operations.
+5. User Interaction
+
+Users input numerical values and select arithmetic operations using the keypad.
+The LCD display reflects the input, intermediate results, and final results.
+Memory operations are initiated by specific key combinations.
+6. System Behavior
+
+The calculator continuously waits for user input.
+Upon receiving input, the calculator processes the operation and updates the LCD display.
+Memory operations are executed and reflected in subsequent calculations.
+7. Error Handling
+
+The calculator provides error messages for invalid operations (e.g., division by zero).
+Clear indicators on the LCD display inform users about the nature of the error.
+8. Conclusion
+
+The Atmega32 Calculator offers a reliable and efficient solution for basic arithmetic calculations. Its user-friendly interface, accurate calculations, and memory management features make it suitable for various applications requiring simple mathematical operations. The integration of hardware components and precise software implementation ensures a robust and user-centric calculator experience.
